@@ -1,11 +1,12 @@
 *
 body {
-    background-color: antiquewhite;
+    background-color: lightblue;
 }
     
 
 }
 .navbar {
+  justify-content: flex-start;
   margin-bottom: 20%;
 }
 

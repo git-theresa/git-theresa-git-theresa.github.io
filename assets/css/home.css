@@ -1,8 +1,15 @@
 body {
-    background-color: antiquewhite;
+    background-color: lightblue;
 }
-nav {
-    background-color: aqua;
 
 
+
 }
+@media screen and (max-width: 768px) {
+    body {
+      background-color: #333;
+    }
+  
+    /* The wrapper's width will be 600px */
+    .wrapper {
+      width: 600px;
