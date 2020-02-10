@@ -2,9 +2,11 @@ body {
     background-color: lightblue;
 }
 
-
-
+.navbar {
+  justify-content: space-between;
 }
+
+
 @media screen and (max-width: 768px) {
     body {
       background-color: #333;
