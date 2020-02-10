@@ -1,0 +1,19 @@
+*
+body {
+    background-color: antiquewhite;
+}
+    
+
+}
+.navbar {
+  margin-bottom: 20%;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #333;
+  }
+
+  /* The wrapper's width will be 600px */
+  .wrapper {
+    width: 600px;
