@@ -8,8 +8,12 @@ body {
 }
 .cardbody {
   text-align-last: auto;
-  
+}
 
+.image{
+ flex-direction: column;
+ margin-top: 25px
+ 
 }
 .page-header {
   text-align: center;
