@@ -11,9 +11,13 @@ body {
 }
 
 .image{
- flex-direction: column;
- margin-top: 25px
+  margin-top: 25px
  
+}
+.btn {
+  background-color: black;
+  color: antiquewhite;
+}
 }
 .page-header {
   text-align: center;
