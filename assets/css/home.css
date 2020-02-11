@@ -1,11 +1,18 @@
 body {
-    background-color: lightblue;
+    background-color: whitesmoke;
 }
 
 .navbar {
-  justify-content: space-between;
+  font-style: color= whitesmoke;
+  flex-direction: flex-end;
 }
+.cardbody {
+  flex-wrap: wrap-reverse;
 
+}
+.page-header {
+  text-align: center;
+}
 
 @media screen and (max-width: 768px) {
     body {
