@@ -7,7 +7,8 @@ body {
   flex-direction: flex-end;
 }
 .cardbody {
-  flex-wrap: wrap-reverse;
+  text-align-last: auto;
+  
 
 }
 .page-header {
