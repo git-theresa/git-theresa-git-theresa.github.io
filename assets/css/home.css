@@ -24,6 +24,10 @@ body {
 .page-header {
   text-align: center;
 }
+.btn {
+  text-align: center;
+  color: white;
+}
 .footer {
   position: fixed;
   left: 0;
@@ -34,7 +38,7 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 970x) {
     body {
       background-color: #333;
     }
