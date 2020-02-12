@@ -1,7 +1,9 @@
 body {
     background-color: whitesmoke;
 }
-
+.container{
+  padding-top: 15vw;
+}
 .navbar {
   font-style: color= whitesmoke;
   flex-direction: flex-end;
@@ -18,8 +20,17 @@ body {
   background-color: black;
   color: antiquewhite;
 }
-}
+
 .page-header {
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:darkgray;
+  color: white;
   text-align: center;
 }
 
@@ -31,3 +42,5 @@ body {
     /* The wrapper's width will be 600px */
     .wrapper {
       width: 600px;
+
+    }
