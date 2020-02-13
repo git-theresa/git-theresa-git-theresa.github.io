@@ -1,22 +1,21 @@
 body {
     background-color: whitesmoke;
 }
+
 .container{
   padding-top: 15vw;
 }
+
 .navbar {
   font-style: color= whitesmoke;
   flex-direction: flex-end;
-}
-.cardbody {
-  text-align-last: auto;
 }
 
 .image {
 padding: 5px;  
 margin: 20px, 20px;
- 
 }
+
 .btn {
   background-color: black;
   color: antiquewhite;
@@ -24,11 +23,13 @@ margin: 20px, 20px;
 
 .page-header {
   text-align: center;
+
 }
 .btn {
   text-align: center;
   color: white;
 }
+
 .footer {
   position: fixed;
   left: 0;
@@ -39,26 +40,35 @@ margin: 20px, 20px;
   text-align: center;
 }
 
+/* Media Screen Sizing */
+
 @media screen and (max-width: 970px) {
     body {
       background-color: #333;
     }
-  
-    /* The wrapper's width will be 600px */
+      /* The wrapper's width will be 600px */
     .wrapper {
       width: 600px;
-
     }
-    // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { ... }
 
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { ... }
+   
+@media screen and (max-width: 575.98px) { 
+  body { background-color: whitesmoke;
+}
+.wrapper {
+  width: 250px;
+}
 
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { ... }
-
-// Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { ... }
-
-
+@media screen and (max-width: 767.98px) {
+  body {
+    background-color: whitesmoke;
+  }
+  .wrapper {
+    width: 600px;
+  }
+@media screen and (max-width: 991.98px) {
+  body {
+    background-color: whitesmoke;
+  }
+  .wrapper {
+  width: 625px;
